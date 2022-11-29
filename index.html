@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <title>Pokedex</title>
+</head>
+<body>
+  <div>
+    <div class="text-center my-5">
+      <img class="img-fluid" src="./assets/International_Pokémon_logo.svg.png" id="logoPokemon" width="480"
+        alt="pokemon">
+    </div>
+    <div class="text-center my-2">
+      <button id="apiButton" type="button" class="btn btn-danger" onclick="consultPokemons()">Mostrar Pokémon</button>
+    </div>
+  </div>
+  <br>
+  <main>
+    <div class="card my-5 bg-secondary" style="width: 18rem; height: 20rem;" id="listPokemon">
+      <div class="card-body " id=pokemon-1>
+        <img src="" alt="" width="250" />
+        <p class="font-weight-bold text-warning bg-dark my-1"> </p>
+      </div>
+    </div>
+  </main>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./javascript.js"></script>
+</body>
+</html>

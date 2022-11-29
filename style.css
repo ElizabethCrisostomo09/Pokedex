@@ -1,0 +1,40 @@
+body {
+  background-color: #6c827f;
+  font-family: Arial;
+  text-align: center;
+}
+
+.title {
+  padding: 16px;
+}
+
+
+#listPokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#apiButton:hover {
+  color: rgb(247, 245, 245);
+  background: rgb(157, 21, 21);
+  box-shadow: 0 0 10px rgb(0, 0, 0), 0 0 40px red, 0 0 80px rgb(220, 11, 11);
+  font-size: 20px;
+}
+
+
+p {
+  font-size: 30px;
+}
+
+.card:hover {
+  transform: scale(var(--escala, 1.2));
+  transition: transform 0.25s;
+}
